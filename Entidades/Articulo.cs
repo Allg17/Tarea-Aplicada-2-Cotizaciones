@@ -15,6 +15,7 @@ namespace Entidades
         public decimal Precio { get; set; }
         public int ArticulosCotizados { get; set; }
 
+
         public Articulo(int articuloID, string descripcion, decimal precio, int articulosCotizados)
         {
             this.ArticuloID = articuloID;
